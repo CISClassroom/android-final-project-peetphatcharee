@@ -1,50 +1,42 @@
 {
   "project_info": {
-    "project_number": "707469883693",
-    "firebase_url": "https://final-e6744.firebaseio.com",
-    "project_id": "final-e6744",
-    "storage_bucket": "final-e6744.appspot.com"
+    "project_number": "24745864216",
+    "firebase_url": "https://phamacyfinal.firebaseio.com",
+    "project_id": "phamacyfinal",
+    "storage_bucket": "phamacyfinal.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:707469883693:android:5df7176ca8d7fa54de3ba4",
+        "mobilesdk_app_id": "1:24745864216:android:377d77931b487c90ece76d",
         "android_client_info": {
-          "package_name": "th.ac.kku.cis.mobileapp.afinal"
+          "package_name": "th.ac.kku.cis.mobileapp.phamacyfinal"
         }
       },
       "oauth_client": [
         {
-          "client_id": "707469883693-dk1eb1rn5ju0ahqih5fu5k35ltavi4ft.apps.googleusercontent.com",
+          "client_id": "24745864216-16afib2psp5c3ffm6gh6rb8lmv145fgr.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "th.ac.kku.cis.mobileapp.afinal",
+            "package_name": "th.ac.kku.cis.mobileapp.phamacyfinal",
             "certificate_hash": "cddf834dca43bff65472e82b7bf0ce9d9c255722"
           }
         },
         {
-          "client_id": "707469883693-beticmrrfmn3nrbs1jc1f31ltsceioej.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "th.ac.kku.cis.mobileapp.afinal",
-            "certificate_hash": "98597bcfe2537249051cb03b399c5478d27cc7a5"
-          }
-        },
-        {
-          "client_id": "707469883693-crjkuq3qsacvohfjgdl6npfspua58ebq.apps.googleusercontent.com",
+          "client_id": "24745864216-t7nakgmujd5l8lrmdjffnpbl5tss1rd9.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBKyJcptyDPyMy4Jo4aGNUZd95R9o3SwAA"
+          "current_key": "AIzaSyBlaElZ29syufK3BctFj7041hHHPILVteA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "707469883693-crjkuq3qsacvohfjgdl6npfspua58ebq.apps.googleusercontent.com",
+              "client_id": "24745864216-t7nakgmujd5l8lrmdjffnpbl5tss1rd9.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
