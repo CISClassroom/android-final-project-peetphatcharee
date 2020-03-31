@@ -6,7 +6,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="info" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
@@ -17,7 +17,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="1af88424" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3a_API_27" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -66,17 +66,17 @@
       <list>
         <option value="Kotlin File" />
         <option value="Kotlin Class" />
-        <option value="layoutResourceFile" />
         <option value="valueResourceFile" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1ZrMrQa5W6Pl3pG65HKsyIfoREe" />
   <component name="PropertiesComponent">
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="1af88424" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-03-31T06:55:48.624Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-03-31T16:26:52.916Z" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/StudentActivity" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.packageName">
