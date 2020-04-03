@@ -7,7 +7,7 @@ import android.view.View
 import android.widget.ListView
 import com.google.firebase.database.*
 import kotlinx.android.synthetic.main.activity_listcategory.*
-
+//----------แสดงหมวดหมู่
 class Listcategory : AppCompatActivity() {
     lateinit var mDatabase: DatabaseReference
     lateinit var adapter: CategoryAdapter
@@ -20,7 +20,7 @@ class Listcategory : AppCompatActivity() {
             supportActionBar?.hide()
 
 
-        //แสดงประเภทยา
+        //แสดงหมวดหมู่
         listViewItems = findViewById<View>(R.id.view1) as ListView
         toDoItemList = mutableListOf<CatePhamacy>()
         adapter = CategoryAdapter(this, toDoItemList!!)
@@ -49,12 +49,12 @@ class Listcategory : AppCompatActivity() {
         })
 
 
-//คลิกประเภทยาจะไปหน้าแสดงรายการยา แต่ละประเภท
+//คลิกประเภทยาจะไปหน้าแสดงรายการยา แต่ละหมวดหมู่
         view1.setOnItemClickListener { parent, view, position, id ->
             val selectedItem = parent.getItemAtPosition(position) as CatePhamacy
             //Toast.makeText(this,selectedItem,Toast.LENGTH_SHORT).show()
             val intent = Intent(this, listPhamacy::class.java)
-            intent.putExtra("name1", selectedItem.Namephamacy)//ส่งไปยัง showstudent
+            intent.putExtra("name1", selectedItem.Namephamacy)//ส่งค่าไปยัง listPhamacy
             startActivity(intent)
         }
     }

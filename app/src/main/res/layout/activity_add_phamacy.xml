@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/add"
+    android:background="@drawable/catory"
     tools:context=".addPhamacy">
 
     <EditText
@@ -13,7 +13,7 @@
         android:layout_height="51dp"
         android:ems="10"
         android:fontFamily="@font/abel"
-        android:hint="ชื่อประเภทยา"
+        android:hint="หมวดหมู่ยา"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -26,6 +26,7 @@
         android:id="@+id/bt_add"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/buttonadd"
         android:text="เพิ่ม"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

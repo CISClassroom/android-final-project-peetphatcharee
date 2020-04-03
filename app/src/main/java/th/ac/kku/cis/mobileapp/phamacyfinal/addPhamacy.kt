@@ -7,7 +7,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import kotlinx.android.synthetic.main.activity_add_phamacy.*
-
+//--------------เพิ่มหมวดหมู่ยา
 class addPhamacy : AppCompatActivity() {
     lateinit var phamacyList: MutableList<CatePhamacy>
     lateinit var mDatabase: DatabaseReference
@@ -30,7 +30,7 @@ class addPhamacy : AppCompatActivity() {
         }
 
     }
-    //เพิ่มประเภทยา
+    //เพิ่มหมวดหมู่ยา
     fun AddData(data: String) {
         var newData: CatePhamacy = CatePhamacy.create()
         val obj = mDatabase.child("Categoryphamacy").push()

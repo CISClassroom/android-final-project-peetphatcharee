@@ -1,5 +1,6 @@
 package th.ac.kku.cis.mobileapp.phamacyfinal
 
+//หมวดหมู่ยา
 class CatePhamacy {
     companion object Factory {
         fun create(): CatePhamacy = CatePhamacy()
@@ -10,7 +11,7 @@ class CatePhamacy {
 
 }
 
-
+//ยา
 class Phamacy {
     companion object Factory1 {
         fun create(): Phamacy = Phamacy()

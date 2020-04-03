@@ -25,7 +25,7 @@
         android:layout_width="250dp"
         android:layout_height="45dp"
         android:ems="10"
-        android:hint="รักษาโรค"
+        android:hint="สรรพคุณ"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -53,9 +53,11 @@
         android:layout_height="wrap_content"
         android:text="เพิ่ม"
         app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@drawable/buttonadd"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.601" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

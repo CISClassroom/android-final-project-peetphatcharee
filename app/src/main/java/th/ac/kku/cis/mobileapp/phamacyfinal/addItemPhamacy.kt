@@ -29,6 +29,7 @@ class addItemPhamacy : AppCompatActivity() {
             AddDataPhamacy("String")
         }
 
+
     }
     fun AddDataPhamacy(data: String) {
 
